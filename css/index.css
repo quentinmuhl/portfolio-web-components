@@ -1,0 +1,19 @@
+a {color: inherit;}
+
+.collections {
+  background-color: #F4F4F4;
+  padding: 50px 30px; 
+}
+
+.collections-title {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+.collections .flex {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+.collections .flex .card-blog {
+  width: 20%;
+}
