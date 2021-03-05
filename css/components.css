@@ -36,6 +36,19 @@
     text-align: center;
 }
 
+.button-secondary {
+    background: #fff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px 0;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 200px;
+    text-align: center;
+}
+
 /* CARD BLOG */
 .card-blog .card__img {padding-top: 100%; position: relative;overflow: hidden;}
 .card-blog .card__img img {
@@ -52,4 +65,52 @@
 .card-blog .desc__title {
     font-size: 20px;
     margin-bottom: 75px;
+}
+
+/* CARD PRICING */
+.card-pricing .card__img {padding-top: 100%; position: relative;overflow: hidden;}
+.card-pricing .card__img img {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 108px;
+    top: 29px;
+    background: #000000;
+}
+.card-pricing .card__desc {
+    padding: 24px;
+    background-color: #fff;
+}
+.card-pricing .desc__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.card-pricing .desc__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.card-pricing .desc__feature {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 34px; 
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
 }
