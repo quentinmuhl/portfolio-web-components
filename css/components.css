@@ -1,6 +1,7 @@
 /* SITE HEADER */
 .site-header {
     display: flex;
+    background-color: #181B24;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
@@ -16,6 +17,7 @@
 
 .site-header .nav a {
     text-decoration: none;
+    color: #fff;
     white-space: nowrap;
 }
 
@@ -26,10 +28,10 @@
 
 /* BOUTON */
 .button {
-    background: #000000;
-    border-radius: 5px;
+    background: #75CBFF;
+    border-radius: 30px;
     padding: 20px 0;
-    color: #fff;
+    color: #181B24;
     display: inline-block;
     text-decoration: none;
     min-width: 200px;
@@ -37,12 +39,12 @@
 }
 
 .button-secondary {
-    background: #fff;
-    border: 1px solid #000000;
+    background: #171A23;
+    border: 1px solid #717580;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 20px 0;
-    color: #000000;
+    color: #fff;
     display: inline-block;
     text-decoration: none;
     min-width: 200px;
@@ -57,14 +59,16 @@
     width: 100%; height: 100%;
     object-fit: cover;
     object-position: center;
+    background: #181B24;
 }
 .card-blog .card__desc {
     padding: 24px;
-    background-color: #fff;
+    background: #181B24;
 }
 .card-blog .desc__title {
     font-size: 20px;
     margin-bottom: 75px;
+    color: #fff;
 }
 
 /* CARD PRICING */

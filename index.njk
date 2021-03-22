@@ -3,16 +3,27 @@ layout: layouts/base.njk
 ---
 
 <div class='collections'>
-  <h1 class='collections-title'>Collections</h1>
+  <h1 class='collections-title-h1'>Quentin Muhl</h1>
+  <h2 class='collections-title-h2'>UX/UI Design</h2>
   
   {% import "components/button.njk" as button %}
+  {% import "components/button-secondary.njk" as buttonSecondary %}
   {% import "components/card-blog.njk" as cardBlog %}
+ 
+ <div class='topContainer'>
+   {{ buttonSecondary.show('https://www.linkedin.com/in/quentinmuhl/','Hire me ✍🏼') }}
+  </div>​
 
-  {{ button.show('plop') }}
-  {{ button.show('test') }}
- ​
   <div class='flex'>
-   {{ cardBlog.show('test','voir plus') }}
+   {{ cardBlog.show('talan.png','Article illustration | Talan ✨','Voir le projet') }}
+   {{ cardBlog.show('metastrat.png','UI Web | Metastrat 🌏','Voir le projet') }}
+   {{ cardBlog.show('actoral.png','UI Design | Actoral 💃🏻','Voir le projet') }}
+   {{ cardBlog.show('rfs.png','UI Design | MonRFS 👨🏻‍⚕️','Voir le projet') }}
   </div>
-  
-</div>
+
+  <div class='flex'>
+   {{ cardBlog.show('cupidate.png','UI Animation | Cupidate 🏹','http://google.fr/') }}
+   {{ cardBlog.show('yellow.png','UI Animation | One day, an artist 🎤','Voir le projet') }}
+   {{ cardBlog.show('vald.jpeg','Just Music • Vald 🎤','Voir le projet') }}
+   {{ cardBlog.show('94.jpeg','94° Adventures • Mobile Game 👾📲','Voir le projet') }}
+  </div>
